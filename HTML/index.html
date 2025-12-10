@@ -3,20 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Problem 1: ReplaceAll</title>
+    <title>Machine Problems</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-    <h1>Machine Problem 1: ReplaceAll</h1>
-    <p>Replace all occurrences of space with no space.</p>
+    <div class="header">
+        <h2>Euwan Gabriel B. Abogadie</h2>
+        <p class="section">A221</p>
+    </div>
 
-    <label for="inputText">Input</label>
-    <input type="text" id="inputText" placeholder="hello world">
-    
-    <button id="replaceBtn">Replace All Spaces</button>
-    
-    <p>Output</p>
-    <div id="output"></div>
+    <div class="container">
+        <h1>Machine Problem 1: ReplaceAll</h1>
+        <p class="subtitle">Replace all occurrences of space with no space.</p>
+
+        <div class="input-group">
+            <label for="inputText"><strong>Input</strong></label>
+            <input type="text" id="inputText" placeholder="hello world">
+        </div>
+
+        <button id="replaceBtn">Replace All Spaces</button>
+
+        <div class="output" id="output1">
+            <label><strong>Output</strong></label>
+            <div class="output-text" id="outputText1"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Machine Problem 5: EmailCheck</h1>
+        <p class="subtitle">Check if the input is a valid email (must contain @).</p>
+
+        <div class="input-group">
+            <label for="emailInput"><strong>Input</strong></label>
+            <input type="text" id="emailInput" placeholder="student@email.com">
+        </div>
+
+        <button id="checkBtn">Check Email</button>
+
+        <div class="output" id="output5">
+            <label><strong>Output</strong></label>
+            <div class="output-text" id="outputText5"></div>
+        </div>
+    </div>
 
     <script src="../JS/script.js"></script>
 </body>
