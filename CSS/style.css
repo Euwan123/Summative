@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    font-size: 14px;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+#output {
+    margin-top: 5px;
+    min-height: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/*
+Author: Euwan Abogadie
+*/
